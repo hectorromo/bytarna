@@ -1,0 +1,78 @@
+//Resets
+@import 'reset.less';
+
+//variables?
+
+//The gridsystem
+@import 'grid.less';
+
+//Mixins
+@import 'mixins.less';
+
+//Typography basics
+@import 'typography.less';
+
+//colours?
+
+// Figures, images and other elements
+// @import "elements.less"; ???
+
+//Forms basics
+@import 'forms.less';
+
+
+//buttons?
+
+
+body {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+@column-width: 60;
+@gutter-width: 20;
+@columns: 12;
+
+@total-width: 100%;
+
+// Colors
+@mainColor: #c6d3aa;
+@mainColorLight: #e0e7d2;
+@mainColorDark: #76884f;
+
+
+body:after { display: none; content: 'breakpoint_1'; }
+@media all and (min-width: 480px) {
+	body:after { display: none; content: 'breakpoint_2'; }
+}
+
+
+@import "320.less";
+
+
+// @media print {
+// 	@import "print.less";
+// }
+
+//480px, 600px, 760px, 900px, 1140px
+
+@media screen and (min-width: 480px) {
+	@import "480.less";
+}
+
+@media screen and (min-width: 600px) {
+	@import "600.less";
+}
+
+@media screen and (min-width: 768px) {
+	@import "768.less";
+}
+
+@media screen and (min-width: 900px) {
+	@import "900.less";
+}
+
+@media screen and (min-width: 1140px) {
+	@import "1140.less";
+}
