@@ -51,6 +51,45 @@
 </head>
 <body>
 	<section>
+		<header>
+			<div class="logo">
+				<img src="">
+			</div>
+			<nav>
+				<ul>
+					<li></li>
+				</ul>
+			</nav>
+			<div class="search">
+				<input>
+				<a href="#"></a>
+			</div>
+		</header>
+		<div class="content">
+			<section class="introTop">
+				
+			</section>
+			<section>
+				<div class="loginForm">
+					<form>
+						<div>
+							<label></label>
+							<input>
+						</div>
+						<div>
+							<label></label>
+							<input>
+						</div>
+					</form>
+				</div>
+				<div class="info">
+
+				</div>				
+			</section>
+			<footer>
+
+			</footer>
+		</div>
 		<article>
 			<p>
 				Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum.
